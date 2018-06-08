@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.css'; 
 
-let defaultTextColor = "#fff";
 let defaultStyle = {
-  color: defaultTextColor
+  color: "#fff"
 }
 
 class Aggregate extends Component {
@@ -30,7 +29,7 @@ class Playlist extends Component {
   render() {
     return(
       <div style={{...defaultStyle, width: "25%", display: 'inline-block'}}>
-        <img />
+        <img alt="test" />
         <h3>Playlist Name</h3>
         <ul style={{listStyleType: 'none'}}>
           <li>Song 1</li>
