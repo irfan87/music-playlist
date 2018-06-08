@@ -1,5 +1,9 @@
-html, body {
+body {
   background-color: grey;
+}
+
+.App {
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
